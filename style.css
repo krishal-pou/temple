@@ -110,7 +110,7 @@
   background: transparent !important;
   border: none;
   cursor: pointer;
-  padding: 25px;
+  padding: 0;
 }
 
 /* Responsive Styles */
@@ -123,7 +123,8 @@
 
 @media screen and (max-width: 768px) {
   .nav-container {
-      padding: 0 1rem;
+      padding: 0;
+      gap:20px;
   }
 
   .nav-title {
